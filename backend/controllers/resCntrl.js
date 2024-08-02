@@ -48,3 +48,18 @@ export const getRes = asyncHandler(async(req, res)=> {
         throw new Error(err.message)
     }
 })
+
+export const deleteResidency = asyncHandler(async (req, res) => {
+    const { id } = req.params;
+
+    try {
+        // Delete the residency with the given id
+        await prisma.residency.delete({
+            where: { id }
+        });
+
+        res.send({ message: "Residency deleted successfully" });
+    } catch (err) {
+        res.status(500).json({ message: err.message });
+    }
+});

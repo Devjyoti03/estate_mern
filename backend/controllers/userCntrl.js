@@ -37,6 +37,12 @@ export const bookVisit = asyncHandler(async(req,res)=>{
                     bookedVisits: {push: {id, date}}
                 }
             })
+            await prisma.residency.update({
+                where: {id},
+                data:{
+                    bookedUsers: {push: {email, date}}
+                }
+            })
             res.send("Booked successfully");
         }
     }catch(err){
