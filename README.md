@@ -260,4 +260,4 @@ model Property {
 
 ## 🔗 Demo Video Link
 
-[https://drive.google.com/file/d/1oTfqd76osivPveDBx-lwZ3j0twzvl4vc/view?usp=drive_link] - *Add your deployed application link here*
+[https://drive.google.com/file/d/1oTfqd76osivPveDBx-lwZ3j0twzvl4vc/view?usp=drive_link]
