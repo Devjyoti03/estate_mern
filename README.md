@@ -256,26 +256,8 @@ model Property {
 - **CORS Configuration** - Proper cross-origin resource sharing
 - **Environment Variables** - Secure configuration management
 
-## 🚀 Deployment
-
-### Frontend (Netlify/Vercel)
-1. Build the frontend: `npm run build`
-2. Deploy the `build` folder to your preferred hosting service
-3. Configure environment variables on the hosting platform
-
-### Backend (Heroku/Railway/DigitalOcean)
-1. Set up your chosen hosting platform
-2. Configure environment variables
-3. Set up MongoDB Atlas for production database
-4. Deploy using Git or Docker
-
-### Database (MongoDB Atlas)
-1. Create a MongoDB Atlas cluster
-2. Configure network access and database users
-3. Update your `DATABASE_URL` environment variable
-
 ⭐ If you found this project helpful, please give it a star on GitHub!
 
-## 🔗 Live Demo
+## 🔗 Demo Video Link
 
-[Live Demo Link] - *Add your deployed application link here*
+[https://drive.google.com/file/d/1oTfqd76osivPveDBx-lwZ3j0twzvl4vc/view?usp=drive_link] - *Add your deployed application link here*
